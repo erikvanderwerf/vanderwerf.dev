@@ -1,9 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import {Button} from "./stories/Button/Button";
+import {TabTitle} from "./stories/TabTitle/TabTitle";
 
 function App() {
   return (
     <div className="App">
+      <Button label="Hello" />
+      <TabTitle text="Hello There" isActive={true} />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
