@@ -14,6 +14,7 @@
   "scripts": {
     "start": "BROWSER=none react-scripts start",
     "build": "webpack --mode=production --node-env=production",
+    "build2": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev --no-open -p 6006",
