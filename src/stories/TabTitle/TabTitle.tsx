@@ -1,7 +1,9 @@
 import * as React from "react";
 
+import './TabTitle.css';
+
 interface TabTitleProps {
-    text: string;
+    title: string;
     isActive: boolean;
 }
 
@@ -11,6 +13,6 @@ export const TabTitle: React.FC<TabTitleProps> = (props: TabTitleProps) => {
         className += ' tab-active';
     }
     return (
-        <h1 className={className}>{props.text}</h1>
+        <h1 className={className}>{props.title}</h1>
     )
 }

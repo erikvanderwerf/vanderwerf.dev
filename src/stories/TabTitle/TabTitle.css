@@ -1,0 +1,7 @@
+.tab {
+    color: #1ea7fd;
+}
+
+.tab-active {
+    text-decoration: underline;
+}
