@@ -18,6 +18,11 @@ export const Page: React.FC = () => {
                     img="/github-mark/github-mark-white.svg"
                     alt="My GitHub Profile"
                 />
+                <LinkItem
+                    href="https://www.linkedin.com/in/erik-vanderwerf/"
+                    img="/linkedin/In-White-128@2x.png"
+                    alt="My LinkedIn Profile"
+                />
             </LinkView>
         </div>
     );
