@@ -30,7 +30,7 @@ export default function Layout({children, home}: { children: React.ReactNode, ho
         <>
           <Image
             priority
-            src="/images/profile.jpg"
+            src="/images/profile-2023-07-24.jpg"
             className={utilStyles.borderCircle}
             height={144}
             width={144}
